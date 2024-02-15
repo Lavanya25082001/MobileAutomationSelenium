@@ -1,0 +1,6 @@
+com\appiumTests\pages\RecipePage.class
+com\appiumTests\pages\LoginPage.class
+com\appiumTests\base\Base.class
+com\appiumTests\test\DetoxTests.class
+com\appiumTests\base\AppiumServer.class
+com\appiumTests\pages\SearchPage.class

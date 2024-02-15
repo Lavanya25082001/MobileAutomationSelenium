@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-14T16:00:53 IST" name="Suite" finished-at="2024-02-14T16:02:49 IST" duration-ms="115720">
+    <groups>
+    </groups>
+    <test started-at="2024-02-14T16:00:53 IST" name="Test" finished-at="2024-02-14T16:02:49 IST" duration-ms="115720">
+      <class name="com.appiumTests.test.DetoxTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.appiumTests.test.DetoxTests@561868a0]" started-at="2024-02-14T16:00:41 IST" name="setup" finished-at="2024-02-14T16:00:53 IST" duration-ms="12384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.appiumTests.test.DetoxTests@561868a0]" started-at="2024-02-14T16:00:53 IST" name="startReport" finished-at="2024-02-14T16:00:54 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="getPages()[pri:0, instance:com.appiumTests.test.DetoxTests@561868a0]" started-at="2024-02-14T16:00:54 IST" name="getPages" finished-at="2024-02-14T16:00:55 IST" depends-on-methods="com.appiumTests.base.Base.startReport" duration-ms="1489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPages -->
+        <test-method is-config="true" signature="gotoHomePage()[pri:0, instance:com.appiumTests.test.DetoxTests@561868a0]" started-at="2024-02-14T16:00:55 IST" name="gotoHomePage" finished-at="2024-02-14T16:02:05 IST" depends-on-methods="com.appiumTests.base.Base.startReport" duration-ms="69497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoHomePage -->
+        <test-method signature="searchPage()[pri:1, instance:com.appiumTests.test.DetoxTests@561868a0]" started-at="2024-02-14T16:02:05 IST" name="searchPage" finished-at="2024-02-14T16:02:26 IST" duration-ms="21563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.appiumTests.test.DetoxTests@561868a0]" started-at="2024-02-14T16:02:26 IST" name="getResult" finished-at="2024-02-14T16:02:26 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchPage status=SUCCESS method=DetoxTests.searchPage()[pri:1, instance:com.appiumTests.test.DetoxTests@561868a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="recipePage()[pri:2, instance:com.appiumTests.test.DetoxTests@561868a0]" started-at="2024-02-14T16:02:26 IST" name="recipePage" finished-at="2024-02-14T16:02:43 IST" duration-ms="16338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipePage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.appiumTests.test.DetoxTests@561868a0]" started-at="2024-02-14T16:02:43 IST" name="getResult" finished-at="2024-02-14T16:02:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=recipePage status=SUCCESS method=DetoxTests.recipePage()[pri:2, instance:com.appiumTests.test.DetoxTests@561868a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.appiumTests.test.DetoxTests@561868a0]" started-at="2024-02-14T16:02:43 IST" name="close" finished-at="2024-02-14T16:02:49 IST" duration-ms="6212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.appiumTests.test.DetoxTests@561868a0]" started-at="2024-02-14T16:02:49 IST" name="endReport" finished-at="2024-02-14T16:02:49 IST" depends-on-methods="com.appiumTests.test.DetoxTests.close" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.appiumTests.test.DetoxTests@561868a0]" started-at="2024-02-14T16:02:49 IST" name="teardown" finished-at="2024-02-14T16:02:50 IST" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.appiumTests.test.DetoxTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
